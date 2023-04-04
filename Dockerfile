@@ -1,7 +1,7 @@
 FROM node:16 
 LABEL authors="Tamim Ibn Aman"
 # Create app directory
-WORKDIR /usr/src/app
+WORKDIR /app
 
 COPY package*.json ./
 
