@@ -1,13 +1,13 @@
 FROM node:16 
 LABEL authors="Tamim Ibn Aman"
 # Create app directory
-WORKDIR /app
+WORKDIR /usr/src/app
 
 COPY package*.json ./
+COPY server.js .
 
 RUN npm install
-
-COPY server.js .
+COPY . ./
 
 #RUN cp .env.example .env
 EXPOSE 8080
