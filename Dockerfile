@@ -10,7 +10,7 @@ RUN npm install
 COPY . ./
 
 #Healthcheck
-HEALTHCHECK CMD curl --fail http://localhost:8080
+#HEALTHCHECK CMD curl --fail http://localhost:8080
 #RUN cp .env.example .env
 EXPOSE 8080
 CMD ["node","server.js"]
