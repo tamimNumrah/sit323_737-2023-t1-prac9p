@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: mypod
+  labels:
+    run: mypod
+spec:
+  containers:
+  - image: tamimibnaman/sit323_737-2023-t1-prac7p:latest
+    name: sit323_737-2023-t1-prac7p
+    ports:
+    - containerPort: 8080
+  dnsPolicy: ClusterFirst
+  restartPolicy: Always
