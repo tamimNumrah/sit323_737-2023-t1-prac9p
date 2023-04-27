@@ -1,7 +1,7 @@
 version: '2.15'
 services:
   web:
-    image: tamimibnaman/sit323_737-2023-t1-prac5p
+    image: tamimibnaman/sit323_737-2023-t1-prac7c
     ports:
       - 8080:8080
     restart: always

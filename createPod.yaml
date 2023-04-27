@@ -6,8 +6,8 @@ metadata:
     run: mypod
 spec:
   containers:
-  - image: tamimibnaman/sit323_737-2023-t1-prac7p:latest
-    name: sit323_737-2023-t1-prac7p
+  - image: tamimibnaman/sit323_737-2023-t1-prac7c:latest
+    name: sit323_737-2023-t1-prac7c
     ports:
     - containerPort: 8080
   dnsPolicy: ClusterFirst
