@@ -7,7 +7,7 @@ metadata:
 spec:
   containers:
   - image: tamimibnaman/sit323_737-2023-t1-prac9p:latest
-    name: sit323_737-2023-t1-prac9p
+    name: prac9p
     ports:
     - containerPort: 8080
   dnsPolicy: ClusterFirst

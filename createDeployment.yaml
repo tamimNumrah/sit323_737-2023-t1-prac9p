@@ -18,6 +18,6 @@ spec:
     spec:
       containers:
       - name: mynode
-        image: tamimibnaman/sit323_737-2023-t1-prac7c:latest
+        image: tamimibnaman/sit323_737-2023-t1-prac9p:latest
         ports:
         - containerPort: 8080
