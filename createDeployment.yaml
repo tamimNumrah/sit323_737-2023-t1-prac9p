@@ -21,3 +21,12 @@ spec:
         image: tamimibnaman/sit323_737-2023-t1-prac9p:1.0
         ports:
         - containerPort: 8080
+        env:
+        - name: MONGO_HOST
+          value: mongo  # Name of the MongoDB deployment
+        - name: MONGO_PORT
+          value: "32000"  # Port on which MongoDB is running
+        - name: MONGO_HOST
+            value: "admin"
+        - name: MONGO_PASSWORD
+            value: "password"
