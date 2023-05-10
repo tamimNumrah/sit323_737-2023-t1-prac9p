@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tamimNumrah/sit323_737-2023-t1-prac7c.git"
+    "url": "git+https://github.com/tamimNumrah/sit323_737-2023-t1-prac9p.git"
   },
   "author": "Tamim Ibn Aman",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/tamimNumrah/sit323_737-2023-t1-prac7c/issues"
+    "url": "https://github.com/tamimNumrah/sit323_737-2023-t1-prac9p/issues"
   },
-  "homepage": "https://github.com/tamimNumrah/sit323_737-2023-t1-prac7c#readme",
+  "homepage": "https://github.com/tamimNumrah/sit323_737-2023-t1-prac9p#readme",
   "dependencies": {
     "body-parser": "^1.20.2",
     "connect-ensure-login": "^0.1.1",
