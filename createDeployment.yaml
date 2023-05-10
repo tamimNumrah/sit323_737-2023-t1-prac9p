@@ -18,6 +18,13 @@ spec:
     spec:
       containers:
       - name: mynode
-        image: tamimibnaman/sit323_737-2023-t1-prac9p:1.0
+        image: sit323_737-2023-t1-prac9p:1.0
         ports:
         - containerPort: 8080
+        env:
+            - name: MONGO_HOST
+              value: mongodb://mongo-service:32000
+            - name: MONGO_USERNAME
+              value: "admin"
+            - name: MONGO_PASSWORD
+              value: "password"
