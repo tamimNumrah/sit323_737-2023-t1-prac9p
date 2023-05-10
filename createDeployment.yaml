@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: prac7c
+  name: prac9p
   labels:
     app: myapp
     tier: frontend
