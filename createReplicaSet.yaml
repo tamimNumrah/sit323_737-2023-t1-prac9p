@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: ReplicaSet
 metadata:
-  name: myreplicaset
+  name: prac9p
   labels:
     app: myapp
     tier: frontend
@@ -18,6 +18,6 @@ spec:
     spec:
       containers:
       - name: mynode
-        image: tamimibnaman/sit323_737-2023-t1-prac7c:latest
+        image: tamimibnaman/sit323_737-2023-t1-prac9p:1.0
         ports:
         - containerPort: 8080

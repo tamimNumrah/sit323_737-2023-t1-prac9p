@@ -6,7 +6,7 @@ metadata:
     run: mypod
 spec:
   containers:
-  - image: tamimibnaman/sit323_737-2023-t1-prac9p:latest
+  - image: tamimibnaman/sit323_737-2023-t1-prac9p:1.0
     name: prac9p
     ports:
     - containerPort: 8080
